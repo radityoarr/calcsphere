@@ -59,6 +59,9 @@
         .session-links a:hover {
             background-color: #b2dfdb;
         }
+        .logout-btn {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -69,34 +72,27 @@
             <h1>Calc-Sphere</h1>
         </div>
 
+        <!-- Logout Button -->
+        <div class="logout-btn">
+            <a href="logout.php" class="btn btn-danger">Logout</a>
+        </div>
+
         <!-- Content Sections (example) -->
         <div class="year-section">
             <h2>Pembahasan Soal Tahun 2023</h2>
             <div class="session-links">
-                <a href="2023_sesi_1.html">Sesi 1</a>
-                <a href="2023_sesi_2.html">Sesi 2</a>
-                <a href="2023_sesi_3.html">Sesi 3</a>
-                <a href="2023_sesi_4.html">Sesi 4</a>
+                <a href="2023_sesi_1.php">Sesi 1</a>
+                <a href="2023_sesi_2.php">Sesi 2</a>
+                <a href="2023_sesi_3.php">Sesi 3</a>
+                <a href="2023_sesi_4.php">Sesi 4</a>
+                <a href="2023_sesi_5.php">Sesi 5</a>
+                <a href="2023_sesi_6.php">Sesi 6</a>
+                <a href="2023_sesi_7.php">Sesi 7</a>
+                <a href="2023_sesi_8.php">Sesi 8</a>
+                <a href="2023_sesi_9.php">Sesi 9</a>
+                <a href="2023_sesi_10.php">Sesi 10</a>
             </div>
         </div> 
-        <div class="year-section">
-            <h2>Pembahasan Soal Tahun 2022</h2>
-            <div class="session-links">
-                <a href="2022_sesi_1.html">Sesi 1</a>
-                <a href="2022_sesi_2.html">Sesi 2</a>
-                <a href="2022_sesi_3.html">Sesi 3</a>
-                <a href="2022_sesi_4.html">Sesi 4</a>
-            </div>
-        </div>
-        <div class="year-section">
-            <h2>Pembahasan Soal Tahun 2021</h2>
-            <div class="session-links">
-                <a href="2021_sesi_1.html">Sesi 1</a>
-                <a href="2021_sesi_2.html">Sesi 2</a>
-                <a href="2021_sesi_3.html">Sesi 3</a>
-                <a href="2021_sesi_4.html">Sesi 4</a>
-            </div>
-        </div>
     </div>
 </body>
 </html>
